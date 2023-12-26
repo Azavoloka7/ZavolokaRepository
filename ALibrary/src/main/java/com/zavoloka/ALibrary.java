@@ -5,41 +5,6 @@ import java.util.List;
 
 public class ALibrary {
 
-	private double getCustomerBalance() {
-		// Replace this with the actual logic to get the customer's balance
-		return 100.0; // Example: assuming the initial balance is $100
-	}
-
-	// Placeholder method to deduct the book price from the customer's balance (replace with actual implementation)
-	private void deductBalance(double amount) {
-		// Replace this with the actual logic to deduct the balance
-		// Example: deduct the amount from the customer's balance
-	}
-
-	// Placeholder method to update the inventory after selling a book (replace with actual implementation)
-	private void updateInventory(Book book) {
-		// Replace this with the actual logic to update the inventory
-		// Example: decrement the quantity of the sold book in the inventory
-	}
-
-
-	private boolean customerHasEnoughBalance(Book book) {
-		// Assuming the customer's balance is stored somewhere in your application
-		// and there's a method to retrieve it, for example, customer.getBalance().
-		// You would need to replace this with your actual implementation.
-		double customerBalance = getCustomerBalance();
-
-		// Compare the book price with the customer's balance
-		return book.getPrice() <= customerBalance;
-    }
-
-	private void processSale(Book book) {
-
-		double bookPrice = book.getPrice();
-		deductBalance(bookPrice);
-		updateInventory(book);
-	}
-	
 	private static void displayAllBooks(BookLibrary library) {
 		System.out.println("Books in the library:");
 		for (Book book : library.getAllBooks()) {
