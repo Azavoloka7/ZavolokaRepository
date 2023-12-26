@@ -3,7 +3,7 @@ package com.zavoloka;
 import java.util.Arrays;
 import java.util.List;
 
-public class BookShopApp {
+public class Library {
 
 	private double getCustomerBalance() {
 		// Replace this with the actual logic to get the customer's balance
