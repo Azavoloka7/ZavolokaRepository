@@ -1,1 +1,1 @@
-echo "It is a Library, not a shop!"
+It is a Library, not a shop!
